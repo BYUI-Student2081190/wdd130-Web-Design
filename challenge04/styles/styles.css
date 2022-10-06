@@ -1,0 +1,59 @@
+body{
+    background-color:hotpink;
+}
+
+header{
+    text-align:center;
+    color: white;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.top{
+    color: white;
+    font-size: 15px;
+    width: 400px;
+    margin: 0 auto;
+}
+header p{
+     color:white;
+     text-align: center;
+}
+
+img{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p{
+    color: black;
+    margin: 0 auto;
+    width: 25%;
+}
+
+section p{
+    font-size: 30px;
+    color:white;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a{
+    font-size: 65px;
+    color:white;
+}
+
+a:hover{
+    color:black;
+}
+
+footer p{
+    text-align: center;
+    color: black;
+    width: 250px;
+    margin: 0 auto;
+}
