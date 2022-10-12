@@ -1,3 +1,6 @@
+/*import the fonts into the code so we can use them*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:ital,wght@1,300&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +8,7 @@
 
 nav a{
     text-align: center;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -19,24 +23,43 @@ main section{
     text-align: center;
 }
 
+main section img{
+     box-sizing: border-box;
+}
+
 #background{
     height: 725px;
     background-color: #2EC4B6;
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 /*Background colors are being added*/
 /*Font Colors Added*/
 /*Removed Hyper Link Lines*/
 body{
-    background-color: #CBF3F0
+    background-color: #CBF3F0;
+    font-size: 22px;
+    font-family: 'PT Serif', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin: 0;
 }
 
 header{
-    background-color: #FFBF69
+    background-color: #FFBF69;
 }
 
 .home-title{
     color: black;
+    font-family: 'poppins', helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
@@ -46,6 +69,7 @@ h4{
 nav a{
     color: #ffffff;
     text-decoration: none;
+    font-family: 'poppins', helvetica, sans-serif;
 }
 
 nav a:hover{
@@ -54,18 +78,24 @@ nav a:hover{
 }
 
 .book, .join{
-    background-color: #CBF3F0;
-    color: rgb(82, 151, 230);
+    background-color: #FFBF69;
+    color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
-    background-color: #2EC4B6;
-    color: white;
+    background-color: white;
+    color: rgb(82, 151, 230);
 }
 
 .msg{
     background-color: #2EC4B6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
@@ -74,27 +104,37 @@ nav a:hover{
 
 .msg p{
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #FFBF69;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 /*Adding bigger font to the Footer P*/
 footer p{
     font-size: 1.2em;
+    font-family: 'poppins', helvetica, sans-serif;
 }
 
 footer a{
     color: white;
     text-decoration: none;
+    font-family: 'poppins', helvetica, sans-serif;
 }
 
 footer a:hover{
     background-color: white;
     color: #2EC4B6;
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 /*Adding Widths to the elements*/
@@ -104,8 +144,17 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px; 
 }
 
 #hero-img{
     width: 100%;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+      border: 10px solid #2EC4B6;
 }
