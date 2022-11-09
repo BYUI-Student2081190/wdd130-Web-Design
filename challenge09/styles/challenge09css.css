@@ -1,0 +1,82 @@
+body{
+    margin: 0 auto;
+}
+/*Set up grid*/
+.body-grid{
+    display: grid;
+    grid-template-columns: 4/4;
+}
+/*Ajust image*/
+img{
+    align-self: center;
+    width: 100%;
+}
+/*Work on body*/
+header{
+    grid-column: 1/4;
+    text-align: center;
+}
+
+h1#top-text{
+    font-size: 15px;
+    color: rgb(45, 83, 155);
+}
+
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 0;
+}
+div#paragraph{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 30px;
+    color: rgb(133, 133, 133);
+}
+
+footer{
+    display: flex;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+/*Make bottom blue squares*/
+div#one{
+    grid-column: 1/2;
+    background-color: rgb(45, 83, 155);
+    color: rgb(239, 238, 238);
+    width: 100%;
+    text-align: center;
+}
+
+div#two{
+    grid-column: 2/3;
+    background-color: rgb(45, 83, 155);
+    color: rgb(239, 238, 238);
+    width: 100%;
+    border-left: 1px solid rgb(239, 238, 238);
+    border-right: 1px solid rgb(239, 238, 238);
+    text-align: center;
+}
+
+div#three{
+    grid-column: 3/4;
+    background-color: rgb(45, 83, 155);
+    color: rgb(239, 238, 238);
+    width: 100%;
+    text-align: center;
+}
+
+.top{
+    font-size: 35px;
+    margin-bottom: -2px;
+}
+
+.bottom{
+    margin-top: 0px;
+}
