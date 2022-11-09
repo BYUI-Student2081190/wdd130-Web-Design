@@ -232,6 +232,46 @@ footer .social img{
     box-shadow: 5px 5px 10px #6f7364;
 }
 
+/*faqs css code*/
+#faqs-descript{
+    color: black;
+    background-color: #FFBF69;
+    border-radius: 5px;
+}
+.faqs-title{
+    font-size: 2em;
+    font: bold;
+    color: black;
+    padding-left: 80px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+h2.faqs-title{
+    margin-top: 25px;
+}
+
+h6.faqs-title{
+    margin-bottom: 15px;
+}
+
+.faqs-paragraph{
+    color: black;
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 900px;
+    padding-left: 80px;
+    margin: 0 auto;
+}
+
+#faqs-image{
+        place-self: center;
+    float: right;
+    margin-right: -200px;
+    padding-top: 25px;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
