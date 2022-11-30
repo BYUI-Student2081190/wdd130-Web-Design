@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Croco's Arcade</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -23,19 +24,24 @@
     </div>
 
     <div id="title">
+
+        <section id="title-text">
+            <h1 class="header-top">Friendships</h1>
+            <h4 class="header-bottom">How could an Arcade help create Friendships?</h4>
+        </section>
+
         <div id="title-box">
             <img id="title-img" src="images/two_boys_playing_sf_opt.png" alt="Two Boys playing a Fighting Game">
         </div>
 
-    <section id="title-text">
-        <h1 class="header-top">Friendships</h1>
-        <h4 class="header-bottom">How could an Arcade help create friendships?</h4>
-    </section>
+    </div>
 
     <main class="friendship-grid">
 
-        <h2 id="croco-quote-top-freinds">A Quote from Croco</h2>
-        <p id="croco-quote-friends">"Nothing can replace a freind. Not even a double battered, fried steak."</p>
+        <div id="croco-quote-freinds-box">
+            <h2 id="croco-quote-home">A Quote from Croco</h2>
+            <p id="croco-quote-home-p">"Nothing can replace a freind. Not even a double battered, fried steak."</p>
+        </div>
 
         <section class="top-friend-paragraph">
             <h3 class="paragraph-friends">Can you make Friends in an Arcade?</h3>
@@ -49,7 +55,7 @@
             </p>
             <h5 class="paragraph-friends">Fun for Everyone?</h5>
             <p class="paragraph-friends-body">Some people may not like video games. Thats ok, arcades normally have stuff for everyone to 
-                enjoy. Like a bucket to shoot some hoops, a pizza diner, and other activities that are for those of us who really don't like flashing pixels. 
+                enjoy. Like a bucket to shoot some hoops, a pizza dinner, and other activities that are for those of us who really don't like flashing pixels. 
                 This is why an Arcade is an amazing date night option. If you and someone you really care about have no ideas on what to 
                 do that night. Why? You both don't need to be good at video games to enjoy them. 
                 Some of the greatest memories us at Croco's Arcade have been when we play an arcade game with our friends 
@@ -58,13 +64,26 @@
             </p>
         </section>
 
-        <img id="friends-image" src="images/friends_playing_arcade_game_opt.png" alt="Friends playing an Arcade Game.">
+        <div id="friends-image-box">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                     <img id="friends-image" src="images/friends_playing_arcade_game_opt.png" alt="Friends playing an Arcade Game.">
+                  </div>
+                    <div class="flip-card-back">
+                      <h1>It's not hard to have fun!</h1>
+                      <p>When you have a freind it's</p>
+                      <p>all the better!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="bottom-friend-paragraph">
             <h6 class="paragraph-friends">#RetroMems</h6>
             <p class="paragraph-friends-body">Something great about friendship is sharing what we love with our friends and family.
                 A way we can do this is by posting on social media, or even sending a text to our friends. We encourage those of you 
-                who love Arcades, and have the same goal to help them. To please send someone a text, or post on social media with the 
+                who love Arcades, and have the same goal to help them. To please send someone a text, or post on social media with the hashtag
             </p>
             <p id="retro-mems">#RetroMems</p>
             <p class="paragraph-friends-body">Post about how Arcades have made you the way you are, or how Arcades have changed your life.
@@ -76,7 +95,7 @@
 
     <div class="footer">
         <footer>
-            <p>Croco's Arcade&copy; 2022 - Christopher Scott</p>
+            <p id="footer-print">Croco's Arcade&copy; 2022 - Christopher Scott</p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb Icon">
