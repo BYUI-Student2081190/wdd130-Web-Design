@@ -256,6 +256,84 @@ img#friends-image{
     padding-bottom: 50px;
 }
 
+/*Code for the near-me page*/
+
+main.near-me-grid{
+    display: grid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    grid-template-columns: 35px 418px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+section#near-me-words{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+section#girl-game-image{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    z-index: 1;
+}
+
+#girl-game-image img{
+    border: 5px solid rgb(36, 1, 36);
+}
+
+section#croco-quote-near-me{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #ffc880;
+    padding: 20px;
+    z-index: -1;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+#near-me-title, #near-me-title-words{
+    font-size: 2em;
+    font-family: 'Press Start 2P', 'sans-serif';
+    color: #480CA8;
+    text-align: center;
+}
+
+.near-me-para-header{
+    font-size: 2em;
+    font-family: 'Press Start 2P', 'sans-serif';
+    color: #480CA8;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+
+.near-me-paragraph{
+    font-size: 20px;
+    font-family: 'PT Sans', 'sans-serif';
+    color: black;
+    margin-bottom: 35px;
+}
+
+#google-maps{
+    text-decoration: none;
+    font-family: 'Press Start 2P', 'sans-serif';
+    font-size: 20px;
+}
+
+#croco-quote-near-me-head{
+    font-size: 2.5em;
+    color: black;
+    font-family: 'Press Start 2P', 'sans-serif';
+}
+
+#croco-quote-near-me-body{
+    font-size: .9em;
+    margin-top: 50px;
+    color: black;
+    font-family: 'Press Start 2P', 'sans-serif';
+}
 
 /*Code for the footer all pages*/
 footer{
